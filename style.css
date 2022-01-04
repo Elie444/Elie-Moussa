@@ -1,0 +1,81 @@
+body{
+    
+    background-color: black;
+} 
+ #bar{
+     position: fixed;
+     bottom: 600px;
+     
+     background-color: black;
+     opacity: 0.7;
+ }
+
+#bar li{
+    display:inline;
+     padding-inline-end: 14px 16px;
+     float: left;
+     height: 40px;
+     font-family:  "Arial Black",sans-serif;
+     
+ }
+#bar ul {
+    
+    height: 20px;
+    width: 600px;
+   
+  }
+  
+ #bar li a {
+    display: block;
+    color:rgb(255, 215, 79);
+    text-align: center;
+    padding: 10px 50px;
+    text-decoration:none; 
+  }
+  
+ #bar li a:hover {
+    background-color:dimgray;
+    opacity: 0.9;
+  }
+  .eliepic1{
+      
+      
+      height:700px;
+      width: 540px;
+  }
+ 
+ .aboutme{
+     text-align: center;
+     color:white;
+     padding: 20px ;
+     border-bottom-style: dotted;
+     border-color:rgb(255, 215, 79);
+ }
+
+.allparagraph{
+    position: sticky;
+    bottom:740px ;
+    left: 830px;
+    
+    width: 500px;
+    height: 580px;
+    opacity:0.5;
+    color:white;
+} 
+#body{
+    font-family:"Tahoma",sans-serif;
+    width: initial;
+}
+
+.pbody{
+    
+     width: 500px;
+     
+}
+footer{
+   
+    padding-top: 150px;
+}
+footer a{
+    color: rgb(255, 215, 79);
+}
